@@ -46,9 +46,7 @@ export default function Home() {
       </footer>
     </div>
   );
-}
-'use client';import { motion } from 'framer-motion';
-  return (
+
     <div className="min-h-screen bg-[#0f0f0f] text-gray-100 flex flex-col">
       {/* Navbar */}
       <header className="w-full px-6 py-4 border-b border-gray-800 flex items-center justify-between bg-[#111]">
