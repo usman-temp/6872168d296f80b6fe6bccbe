@@ -48,10 +48,8 @@ export default function RootLayout({ children }) {
   );
 }
 import { Geist } from 'next/font/google';
-const geistSans = Geist({ subsets: ['latin'], variable: '--font-geist-sans' });
+const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 
-  subsets: ["latin"],
-});
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
