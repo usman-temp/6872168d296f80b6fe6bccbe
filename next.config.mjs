@@ -1,1 +1,1 @@
-export const eslint = {  ignoreDuringBuilds: true,};
+export default {  eslint: {    ignoreDuringBuilds: true,  },};
