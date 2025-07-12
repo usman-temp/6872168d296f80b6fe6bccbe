@@ -1,1 +1,1 @@
-'use client';import { motion } from 'framer-motion';import Portfolio from './components/Portfolio';import Header from './components/Header';export default function HomePage() {  return (    <main className="pt-20">      <Header />      <Portfolio />    </main>  );}
+import HeroSection from './components/HeroSection';
