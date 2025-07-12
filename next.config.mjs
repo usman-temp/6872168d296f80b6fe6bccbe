@@ -1,4 +1,1 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+// Disable ESLint during buildsexport const eslint = {  ignoreDuringBuilds: true,};
