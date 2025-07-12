@@ -21,17 +21,7 @@ export default function RootLayout({ children }) {
   );
 }
 
-  return (
-    <html lang="en">
-      {' '}
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {' '}
-        {children}{' '}
-      </body>{' '}
-    </html>
-  );
-}
-import { Geist } from 'next/font/google';
+
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] });
 
 
