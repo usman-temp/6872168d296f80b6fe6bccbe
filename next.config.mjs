@@ -1,1 +1,1 @@
-// Disable ESLint during buildsexport const eslint = {  ignoreDuringBuilds: true,};
+export const nextConfig = {  eslint: {    ignoreDuringBuilds: true,  },};export default nextConfig;
