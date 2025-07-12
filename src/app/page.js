@@ -1,3 +1,11 @@
 import HeroSection from './components/HeroSection';
 
-return (    <main className="pt-20">      <Header />      <HeroSection />      <Portfolio />    </main>  );
+import HeroSection from './components/HeroSection';
+export default function HomePage() {
+  return (
+    <main className="min-h-screen">
+      {' '}
+      <HeroSection />{' '}
+    </main>
+  );
+}
